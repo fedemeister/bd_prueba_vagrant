@@ -1,9 +1,9 @@
-﻿-- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 3.5.1
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 03-03-2019 a las 15:56:33
+-- Tiempo de generación: 04-03-2019 a las 11:17:57
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `supermercados` (
   `DATO_10` double NOT NULL,
   PRIMARY KEY (`MARCA`),
   UNIQUE KEY `MARCA` (`MARCA`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci COMMENT='Datos extraídos de Greenpeace España. https://es.greenpeace.org/es/trabajamos-en/consumismo/plasticos/ranking-de-supermercados-contra-el-plastico/ ';
 
 --
 -- Volcado de datos para la tabla `supermercados`
